@@ -1,0 +1,30 @@
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+    xmlns:gap       = "http://phonegap.com/ns/1.0"
+    xmlns:android   = "http://schemas.android.com/apk/res/android"
+    id              = "com.cecyt3.mobile"
+    version         = "1.0">
+
+<name>KNF</name>
+
+    <description>
+        Cecyt3 Mobile 
+    </description>
+
+<preference name="orientation" value="portrait" />
+<preference name="permissions" value="none"/>
+
+    <author href="http://cecyt3-mobile.hol.es/" email="jordyamc@hotmil.com">
+        Madness Programmer
+    </author>
+
+<icon src="CCYT3-512.png" />
+
+<supports-screens android:anyDensity="true" android:resizeable="true" 
+    android:smallScreens="true" 
+    android:normalScreens="true" 
+    android:largeScreens="true" 
+    android:xlargeScreens="true" />
+
+<gap:platform name="android" />
+
+</widget>
