@@ -10,8 +10,10 @@
         Cecyt3 Mobile 
     </description>
 
+<preference name="phonegap-version" value="3.5.0" />
 <preference name="orientation" value="portrait" />
 <preference name="permissions" value="none"/>
+<preference name="android-installLocation" value="auto" />
 
     <author href="http://cecyt3-mobile.hol.es/" email="jordyamc@hotmil.com">
         Madness Programmer
