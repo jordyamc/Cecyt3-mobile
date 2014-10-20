@@ -28,5 +28,9 @@
     android:xlargeScreens="true" />
 
 <gap:platform name="android" />
+<gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+<preference name="StatusBarOverlaysWebView" value="true" />
+<preference name="StatusBarBackgroundColor" value="#6C1C41" />
+
 
 </widget>
